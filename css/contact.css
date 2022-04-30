@@ -1,0 +1,214 @@
+/*--navigation sec--*/
+.navigation{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(252 119 5);
+    height: 63px;
+    margin: -25px -8px;
+}
+/*logo*/
+ .logo{
+    display:inline-block;
+    position: absolute;
+    top: -20px;
+    left: 34px;
+}
+.logo img{
+    width: 52px;
+    height: 53px;
+    margin: 15px 0px;
+    padding: 0px;
+    border-radius: 30px;
+}
+.logotext{
+    font-size: 20px;
+    color: rgb(122, 54, 6);
+    display: inline-block;
+    margin: 55px -62px;
+    padding: 3px 4px;
+    font-family: 'Bebas Neue', cursive
+}
+/*navigation work*/
+.navbar ul{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 810px;
+}
+.navbar ul span i{
+    font-size: 40px;
+    margin: 11px 35px;
+}
+.navtext1{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.navtext1 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+.fa-solid ,.fa-house{
+    font-size: 30px;
+}
+.navtext5{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext5 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: black;
+}
+.navtext{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+.navtext a:hover{
+    color: black;
+}
+.navtext1 a:hover{
+    color: black;
+}
+/*map image*/
+.map-image{
+    margin: 50px 743px;
+}
+
+/*h1*/
+h2{
+    text-align: center;
+}
+/*some para, adress*/
+.some-para{
+    margin: 50px 30px;
+}
+.some-para p{
+    text-align: center;
+}
+.our-address{
+    margin: 100px 30px;
+}
+.our-address p{
+    display: inline;
+    padding-left: 255px;
+
+}
+
+/*form group*/
+form{
+    background-color: #ececec;
+    padding: 50px;
+    margin: 30px 100px;
+}
+input[type="name"],
+input[type="email"],
+input[type="text"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    height: 60px;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+    font-size: 100%;
+    border-radius: 5px;
+}
+form textarea{
+    width: 419px;
+    margin: 20px 400px;
+}
+input[type="submit"]{
+    margin: 23px 574px;
+    height: 40px;
+    font-size: 20px;
+    width: 90px;
+    background-color: orange;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+}
+.hidden {
+    color:#ece ;
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+input[type="name"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus,
+input[type="Your message"]:focus{
+    border: 2px solid rgba(245, 108, 108, 0.774);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.767);
+}
+input[type="submit"]:hover{
+    background-color: rgba(238, 179, 69, 0.432);
+}
+/*footer*/
+footer{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 101%;
+    margin: -10px -8px;
+}
+footer p{
+  text-align: center;  
+}
+/* another footer */
+.footer{
+    background-color:  rgb(252 119 5);
+    height: 100%;
+    width: 101%;
+    display: flex;
+    margin-top: 122px;
+    margin-left: -8px;
+}
+.footer h1 ,.footer p{
+    color: white;
+}
+.about-footer{
+    display: inline-block;
+    text-align: center;
+    margin-left: 51px;
+}
+.testimoials{
+    text-align: center;
+    margin-left: 170px;
+}
+.testimoials p i{
+    background-color: red;
+}
+.contacts{
+    text-align: center;
+    margin-left: 282px;
+}
+.contacts a{
+    text-decoration: none;
+    color: #fff;
+}
+.contacts p i{
+    font-size: medium;
+}

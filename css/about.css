@@ -1,0 +1,338 @@
+/*--navigation sec--*/
+.navigation{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(252 119 5);
+    height: 63px;
+    margin: -25px -8px;
+}
+/*logo*/
+ .logo{
+    display:inline-block;
+    position: absolute;
+    top: -20px;
+    left: 34px;
+}
+.logo img{
+    width: 52px;
+    height: 53px;
+    margin: 15px 0px;
+    padding: 0px;
+    border-radius: 30px;
+}
+.logotext{
+    font-size: 20px;
+    color: rgb(122, 54, 6);
+    display: inline-block;
+    margin: 55px -62px;
+    padding: 3px 4px;
+    font-family: 'Bebas Neue', cursive
+}
+/*navigation work*/
+.navbar ul{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 810px;
+}
+.navbar ul span i{
+    font-size: 40px;
+    margin: 11px 35px;
+}
+.navtext1{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: -29px;
+}
+.navtext1 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color:black
+}
+.fa-solid ,.fa-house{
+    font-size: 30px;
+}
+.navtext2{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext2 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color:black;
+}
+.navtext4{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext4 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color:white;
+}
+.navtext5{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext5 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: white;
+}
+.navtext{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+.navtext a:hover{
+    color: black;
+}
+.navtext1 a:hover{
+    color: black;
+}
+.navtext5 a:hover{
+    color: black;
+}
+.navtext4 a:hover{
+    color: black;
+}
+/* opening about */
+.opening-about{
+    margin-top: 10px;
+    height: 410px;
+    width: 101%;
+    margin-left: -8px;
+    position: relative;
+}
+.about-back ::after{
+    content: "";
+    background:url(../images/workout2.jpg) center no-repeat ;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    height: 138%;
+    width: 100%;
+    opacity: 0.89;
+}
+.about-back{
+    padding-top: 1px;
+    height: 350px;
+}
+.about-back h1{
+    text-align: center;
+    padding-top: 100px; 
+    font-size: 80px;
+    color: #fff;
+}
+.about-back img{
+    padding: 0px 440px;
+    margin-top: -334px;
+}
+/* about us */
+.icon{
+    text-align: center;
+    background-color: #fff;
+    margin-top: 122px;
+    height: 30px;
+    justify-content: center;
+    padding-top: 40px;
+}
+i {
+    font-size:40px;
+}
+.dialoge {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+/* reason */
+.choose-reson h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+    color: rgb(36, 18, 18);
+}
+.choose-us{
+    background: #fff url(../images/blog9.jpg) no-repeat center;
+    background-size: cover;
+    margin-left: -8px;
+    height: 439px;
+    width: 101%;
+    display: flex;
+    opacity: 0.89;
+}
+.reason-1 {
+    text-align: center;
+    margin: 20px 100px;
+     background-color: rgba(255, 0, 0, 0.356);
+     margin-bottom: 170px;
+}
+.reason-1 a{
+    text-decoration: none;
+    color: black;
+}
+.reason-2 {
+    text-align: center;
+    margin: 20px 100px;
+     background-color: rgba(255, 0, 0, 0.356);
+     margin-bottom: 170px;
+}
+.reason-3 {
+    text-align: center;
+    margin: 20px 100px;
+     background-color: rgba(255, 0, 0, 0.356);
+     margin-bottom: 170px;
+}
+.reason-4{
+    text-align: center;
+    margin: 20px 100px;
+     background-color: rgba(255, 0, 0, 0.356);
+     margin-bottom: 170px;
+}
+/* castomer says */
+.customer-says{
+    background-color: rgba(126, 117, 109, 0.075);
+    width: 101%;
+    margin-left: -8px;
+    height: 330px;
+    background-image: linear-gradient(to bottom, rgba(126, 117, 109, 0.075),#fff);
+}
+.customer-says hr{
+    width: 470px;
+    color:rgb(252 119 5) ;
+}
+.customer-says h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+.cst-div{
+    display: flex;
+    margin: -70px 217px;
+}
+.cst-div img{
+    height: 131px;
+    width: 111px;
+    margin: 131px 114px;
+    border-radius: 60px;
+}
+.cst-says{
+    margin: 71px -90px;
+    padding: 20px 20px;
+}
+.cst-says h1{
+   text-align: center;
+}
+.cst-says p{
+    text-align: center;
+}
+.cst-says span{
+    margin: 0px 20px;
+    padding-left: 14px;
+}
+.cst-says span i{
+    margin: 0px 5px;
+    font-size: 30px;
+    color: gold;
+    display: inline-block;
+
+}
+/* our clients */
+.our-clients{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 160px;
+    background-image: linear-gradient(to bottom,rgba(250, 139, 12, 0.356),#fff);
+    width: 101%;
+    margin-left: -8px;
+}
+.clients span i{
+    margin: 20px 80px;
+    font-size: 80px;
+}
+/*footer*/
+footer{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 101%;
+    margin: -10px -8px;
+}
+footer p{
+  text-align: center;  
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+/* another footer */
+.footer{
+    background-color:  rgb(252 119 5);
+    height: 100%;
+    width: 101%;
+    display: flex;
+    margin-top: 122px;
+    margin-left: -8px;
+}
+.footer h1 ,.footer p{
+    color: white;
+}
+.about-footer{
+    display: inline-block;
+    text-align: center;
+    margin-left: 51px;
+}
+.testimoials{
+    text-align: center;
+    margin-left: 170px;
+}
+.testimoials p i{
+    background-color: red;
+    font-size: medium;
+}
+.contacts{
+    text-align: center;
+    margin-left: 282px;
+}
+.contacts a{
+    text-decoration: none;
+    color: #fff;
+}
+.contacts p i{
+    font-size: medium;
+}

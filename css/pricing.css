@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+
+}
+/*--navigation sec--*/
+.navigation{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(252 119 5);
+    /* background-image: linear-gradient(to bottom, rgb(255, 136, 0), #fff); */
+    height: 63px;
+    margin: -25px -8px;
+}
+/*logo*/
+ .logo{
+    display:inline-block;
+    position: absolute;
+    top: -20px;
+    left: 34px;
+}
+.logo img{
+    width: 52px;
+    height: 53px;
+    margin: 15px 0px;
+    padding: 0px;
+    border-radius: 30px;
+}
+.logotext{
+    font-size: 20px;
+    color: rgb(122, 54, 6);
+    display: inline-block;
+    margin: 55px -62px;
+    padding: 3px 4px;
+    font-family: 'Bebas Neue', cursive
+}
+/*navigation work*/
+.navbar ul{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 810px;
+}
+.navbar ul span i{
+    font-size: 40px;
+    margin: 11px 35px;
+}
+.navtext1{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: -29px;
+}
+.navtext1 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: white;
+}
+.fa-solid ,.fa-house{
+    font-size: 30px;
+}
+.navtext4{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext4 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color:black;
+}
+.navtext5{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext5 a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: white;
+}
+.navtext{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.navtext a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 10px;
+    padding: 20px 10px;
+    color: aliceblue;
+}
+.navtext a:hover{
+    color: black;
+}
+.navtext1 a:hover{
+    color: black;
+}
+.navtext5 a:hover{
+    color: black;
+}
+/* price-h1 section */
+/* back-img */
+.back-class{
+    background: #fff url(../images/best-men-workout.jpg) no-repeat center;
+    background-size: cover;
+    height: 300px;
+    width: 101%;
+    margin-left: -8px;
+}
+.our-vision{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+    text-shadow: rgb(255, 136, 0) 1px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.our-vision p{
+    font-size: 15px;
+}
+/* price */
+.pricing{
+    background-color: rgba(0, 255, 255, 0.089);
+    height: 100%;
+    box-sizing: border-box;
+}
+.pricing-div{
+    padding: 20px 330px;
+}
+.pricing-div p{
+    font-family: 'ZCOOL QingKe HuangYou', cursive
+}
+.bronze-pricing{
+    border: 2px solid red;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 2px;
+   margin: 0px 40px;
+}
+.bronze-pricing h1{
+    background-color: burlywood;
+    margin-top: 11px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+.silver-pricing{
+    border: 2px solid red;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 2px;
+    margin: 0px 40px;
+}
+.silver-pricing h1{
+    background-color: silver;
+    margin-top: 11px;
+    margin-bottom: 30px;
+}
+.gold-pricing{
+    border: 2px solid red;
+    text-align: center;
+    display: inline-block;
+    padding: 2px 2px;
+   margin: 0px 40px;
+   height: 230px;
+}
+.gold-pricing h1{
+    background-color: gold;
+    margin-bottom: 30px;
+    margin-top: 15px;
+}
+input[ type=submit]{
+ background-color: rgb(255, 136, 0) ;
+ border-radius: 10px;
+ transition: all ease-in 0.1s;
+}
+input[ type=submit]:hover{
+    background-color: rgb(248, 194, 133) ;
+    color: white;
+   box-shadow: 1px 1px 0.1px black;
+}
+/* MORE-OFFERS */
+.more-offers{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.more-offers h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+
+}
+.offers-div input{
+    font-size: 15px;
+    border-radius: 3px;
+    height: 35px;
+    width: 60px;
+    background-color: red;
+    align-items: center;
+    margin: 95px 0px;
+}
+.offers-div {
+    display: flex;
+    margin: 20px 25px;
+
+}
+.offer-1{
+    border: 4px solid red;
+   border-radius: 5px;
+    height: 185px;
+    width: 360px;
+    margin: 2px 2px;
+    background: aquamarine url(../images/card-price-1.webp) center no-repeat;
+    background-size: cover;
+
+
+}
+.offers-2{
+    border: 4px solid red;
+    border-radius: 5px;
+    height: 185px;
+    width: 360px;
+    margin: 2px 2px;
+    background: aquamarine url(../images/card-price-2.webp) center no-repeat;
+    background-size: cover;
+
+    
+}
+.offers-3{
+border: 4px solid red;
+border-radius: 5px;
+height: 185px;
+width: 360px;
+margin: 2px 2px;
+background: aquamarine url(../images/card-price-3.webp) no-repeat center;
+background-size: cover;
+}
+.offers-4{
+border: 4px solid red;
+border-radius: 5px;
+height: 185px;
+width: 360px;
+margin: 2px 2px;
+background: aquamarine url(../images/card-price-4.webp) center no-repeat;
+background-size: cover;
+}
+.offers-div input:hover{
+    background-color: rgba(240, 58, 58, 0.171);
+}
+/*footer*/
+footer{
+    display:inline-block;
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 101%;
+    margin: -10px -8px;
+}
+footer p{
+  text-align: center;  
+}
+/* another footer */
+.footer{
+    background-color:  rgb(252 119 5);
+    height: 100%;
+    width: 101%;
+    display: flex;
+    margin-top: 122px;
+    margin-left: -8px;
+}
+.footer h1 ,.footer p{
+    color: white;
+}
+.about-footer{
+    display: inline-block;
+    text-align: center;
+    margin-left: 51px;
+}
+.testimoials{
+    text-align: center;
+    margin-left: 170px;
+}
+.testimoials p i{
+    background-color: red;
+}
+.contacts{
+    text-align: center;
+    margin-left: 282px;
+}
+.contacts a{
+    text-decoration: none;
+    color: #fff;
+}
+.contacts p i{
+    font-size: medium;
+}
